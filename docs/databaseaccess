@@ -1,0 +1,4 @@
+const Database = use('Database')
+
+await Database.collection('users').find()
+await Database.collection('users').paginate()
